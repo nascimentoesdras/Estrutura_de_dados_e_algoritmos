@@ -6,11 +6,13 @@ public class Conditionals {
 
         // The "if" statement is used to validate if some data is true or false:
         String name = "kkk";
+        String lastName = "Nascimento";
 
-        if() {
-            System.out.println("The variable is empty");
-        }else {
-            System.out.println("Yes, my name is Esdras!");
+        if (name == lastName) {
+            System.out.println("The variables values are the same.");
+        } else {
+            System.out.println("They are different!");
         }
+
     }
 }
