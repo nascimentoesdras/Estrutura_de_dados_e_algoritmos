@@ -5,10 +5,10 @@ public class Conditionals {
         */
 
         // The "if" statement is used to validate if some data is true or false:
-        String name = "kkk";
+        String name = "Nascimento";
         String lastName = "Nascimento";
 
-        if (name == lastName) {
+        if (name.equals(lastName)) {
             System.out.println("The variables values are the same.");
         } else {
             System.out.println("They are different!");
